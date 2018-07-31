@@ -8,6 +8,7 @@ import Services from '../pages/Services';
 import BuyTicket from '../pages/BuyTicket';
 import About from '../pages/About';
 import NotFound from '../pages/NotFound';
+import availablebuses from '../pages/availablebuses';
 
 export default class MainLayout extends React.Component {
   render() {
@@ -22,6 +23,7 @@ export default class MainLayout extends React.Component {
               <Route exact path='/contact' component={Contact} />
               <Route exact path='/services' component={Services} />
               <Route exact path='/buyticket' component={BuyTicket} />
+              <Route exact path='/availablebuses' component={availablebuses} />
               <Route component={NotFound} />
             </Switch>
           <Footer />  

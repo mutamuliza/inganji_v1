@@ -107,7 +107,7 @@ export default class Header extends React.Component {
 
        <td> <input type="time" className="form-control" id="usr" placeholder=" hour:" style={{width:"229px",height:"60px",backgroundColor:" #0a347a",color:"#3b97ff"}}/></td>
 
-            <td><button href="available buses.jsx" className="btn btn-outline-white btn-md my-0 ml-sm-2" type="submit" style={{width:"130px",height:"40px",background:"skyblue"}}>Check for buses </button></td>
+            <td><a href="/availablebuses" className="btn btn-outline-white btn-md my-0 ml-sm-2" style={{width:"130px",height:"40px",background:"skyblue"}}>Check for buses </a></td>
              </tr>
          </tbody>
        </table>
