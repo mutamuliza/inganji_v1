@@ -1,0 +1,22 @@
+/* CSS declarations go here */
+Header a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+Header a, #login-buttons a {
+  text-decoration: none;
+  margin-right: 10px;
+  color:inherit;
+}
+body{
+background:#001129;
+}
+.Header{
+  background-image:url("background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer{
+  background-color:" linear-gradient(171deg, #092a5d 0%, #123061 40%, #000517 100%)"
+}
