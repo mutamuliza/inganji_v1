@@ -18,14 +18,14 @@ export default class Header extends React.Component {
    </li>
    
   <li className="nav-item">
-<div><div style={{float:"left"}}> <a className="nav-link" href="">Kinya</a></div><div style={{float:"left"}}><img src={"rwanda.png"} alt="rwanda" style={{width:"20px",height:"20px"}}/></div> </div>
+<div><a className="nav-link"  style={{marginTop:'2px',marginBottom:'2px'}}><div style={{float:"left"}}> <a className="nav-link" href="">Kinya</a></div></a><div style={{float:"left"}}><img src={"rwanda.png"} alt="rwanda" style={{width:"20px",height:"20px"}}/></div> </div>
    </li>
    <li className="nav-item">
-    <div><div  style={{float:"left"}}><a className="nav-link" href="">Eng</a></div><div style={{float:"left"}}><img src={"united-kingdom.png"} alt="english" style={{width:"20px",height:"20px"}}/></div></div>
+   <div><a className="nav-link"  style={{marginTop:'2px',marginBottom:'2px'}}><div style={{float:"left"}}> <a className="nav-link" href="">Eng</a></div></a><div style={{float:"left"}}><img src={"united-kingdom.png"} alt="english" style={{width:"20px",height:"20px"}}/></div> </div>
    </li>
  
    <li className="nav-item">
-     <div><div  style={{float:"left"}}><a className="nav-link" href="">Fre</a></div><div style={{float:"left"}}><img src={"france.png"} alt="french" style={{width:"20px",height:"20px"}}/></div></div>
+   <div><a className="nav-link"  style={{marginTop:'2px',marginBottom:'2px'}}><div style={{float:"left"}}> <a className="nav-link" href="">french</a></div></a><div style={{float:"left"}}><img src={"france.png"} alt="france" style={{width:"20px",height:"20px"}}/></div> </div>
    </li>
    <li className="nav-item" style={{paddingTop:'7px',paddingRight:'25px'}} >
  <form className="form-inline my-2 my-lg-0">
@@ -64,7 +64,7 @@ export default class Header extends React.Component {
 </nav>
         
 
-<h3  style={{color:"darkblue"}}>Fill in to know availability of buses</h3>
+<h3  style={{color:"white"}}>Fill in to know availability of buses</h3>
 
      <div className="form-group">
      <table>

@@ -5,10 +5,10 @@ function Home() {
   return (
     <div className={classNames('Home', 'foo', 'bar')} style={{color:"#3b97ff"}}>
     <h1 style={{textAlign:"center"}}>  a tutorial of how tugende app works</h1>
-    <div className="embed-responsive embed-responsive-16by9" style={{ width:"50%",height:"90px",margin: "0 auto" }}>
-  <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
-</div>
-     
+    <video style={{margin:"auto"}} width="320" height="240" controls >
+  <source src="Final/Final.mp4" type="video/mp4"/>
+  
+</video>
 
     
       
